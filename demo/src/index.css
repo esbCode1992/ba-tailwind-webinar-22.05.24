@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ba-nav-link{
+    @apply hover:text-ba-green active:text-red-600 text-lg
+}
+
+.ba-flex{
+    @apply flex gap-3 items-center
+}
